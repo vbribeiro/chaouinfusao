@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chá ou Infusão?</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="conteudo">
+        <h1 class="titulo1">É um Chá ou uma Infusão?</h1>
+
+        <select class="selecao" onchange="chaouinfusao()">
+            <option value="" disabled selected>Escolha sua planta</option>
+            <option value="Chá Verde">Chá Verde</option>
+            <option value="Hortelã">Hortelã</option>
+            <option value="Chá Preto">Chá Preto</option>
+            <option value="Camomila">Camomila</option>
+            <option value="Chá Branco">Chá Branco</option>
+            <option value="Erva-doce">Erva-doce</option>
+            <option value="Chá Oolong">Chá Oolong</option>
+            <option value="Rooibos">Rooibos</option>
+            <option value="Chá Pu-erh">Chá Pu-erh</option>
+            <option value="Mate">Mate</option>
+            <option value="Capim-limão">Capim-limão</option>
+            <option value="Gengibre">Gengibre</option>
+            <option value="Cidreira">Cidreira</option>
+        </select>
+    
+        <button class="botao" onclick="mostrarResultado()">Clique para saber o resultado</button>
+    
+        <h2 class="titulo1" id="resultado"></h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    margin: 15px;
+    padding: 0;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #8e768f;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.conteudo {
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: center; /* Centraliza na altura */
+    align-items: center; /* Centraliza na largura */
+    height: 90vh; /* Altura da viewport */
+}
+
+.conteudo .titulo1,
+.conteudo .titulo2 {
+    color: #fff;
+}
+
+.conteudo .selecao,
+.conteudo .botao {
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    background-color: #8e768f;
+    border: 2px solid #dcccdc;
+    color: #fff;
+    font-size: 15px;
+}
+
+.conteudo .botao:hover,
+.conteudo .selecao:hover {
+    background-color: rgb(150, 131, 151);
+}
+
+.conteudo .resultado {
+    font-size: 20px;
+}
